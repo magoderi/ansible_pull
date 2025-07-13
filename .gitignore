@@ -1,0 +1,87 @@
+# === 🐍 PYTHON ===
+
+# Archivos bytecode / compilados
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de log y temporales
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Archivos de entorno virtual
+venv/
+.venv/
+
+# Archivos de pruebas (pytest, coverage, etc.)
+.cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Configuraciones de herramientas
+*.env
+.env/
+.env.*     # .env.dev, .env.test, etc.
+
+# === 🧪 TESTS Y CI/CD ===
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# === 💻 EDITORES ===
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Eclipse
+.project
+.pydevproject
+
+# JetBrains
+*.iws
+*.ipr
+*.class
+
+# === 📦 BUILD / DIST ===
+
+build/
+dist/
+*.egg-info/
+*.eggs/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# === 🚀 OTROS ===
+
+# SQLite DBs
+*.sqlite3
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Mac OS y Linux artefactos
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Archivos de lock
+poetry.lock
+Pipfile.lock
